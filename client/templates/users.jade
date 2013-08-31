@@ -1,0 +1,6 @@
+.row
+  .well.span3(data-each-user=".models")
+    h5(data-text="user.handle")
+    img.img-rounded(data-src="user:profileImage < user.handle")
+    br
+    a(data-href="user.handle | prepend /user/") Profile

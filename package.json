@@ -1,0 +1,27 @@
+{
+  "name":"boiler",
+  "version":"0.0.1",
+  "dependencies":{
+    "coffee-script":"*",
+    "express":"*",
+    "mongoose": "*",
+    "async": "*",
+    "request": "*",
+    "require-dir": "*"
+  },
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-coffee": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-jaded": "*",
+    "grunt-reload": "https://github.com/webxl/grunt-reload/archive/master.tar.gz"
+  },
+  "scripts":{
+    "start":"coffee server/start.coffee"
+  },
+  "engines": {
+    "node": ">=0.6"
+  }
+}
